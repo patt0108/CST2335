@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab 3</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="ButtonText">I\'m a button</string>
+    <string name="login">Login</string>
+    <string name="login_name">login name</string>
+    <string name="password">password</string>
+    <string name="radio_button">RadioButton</string>
+    <string name="check_box">CheckBox</string>
+    <string name="switch_text">What does this do?</string>
+    <string name="dialog_message">Do you want to finish the Activity?</string>
+    <string name="dialog_title">Finish?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="activityResponse">Here is my response</string>
+    <string name="startChat">Start Chat</string>
+    <string name="send">Send</string>
+</resources>
