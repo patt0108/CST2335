@@ -61,16 +61,15 @@ public class ListItemsActivity extends Activity {
                         resultIntent.putExtra("Response", "Here is my response");
                         setResult(Activity.RESULT_OK, resultIntent);
                         finish();
-                    }
-                })
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener(){
-                    public void onClick(DialogInterface dialog, int id){
-                    }
-                })
-                .show();
+                        }
+                    })
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener(){
+                        public void onClick(DialogInterface dialog, int id){
+                        }
+                    })
+                    .show();
             }
         });
-
     }
 
     @Override

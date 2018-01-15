@@ -30,16 +30,25 @@ public class StartActivity extends Activity {
         Button startChat = (Button) findViewById(R.id.startChat);
         startChat.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
                 Intent startChatActivity = new Intent(getApplicationContext(), ChatWindow.class);
                 startActivity(startChatActivity);
             }
         });
+
+        Button weather = (Button) findViewById(R.id.weather);
+        weather.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent startWeatherActivity = new Intent(getApplicationContext(), WeatherForecast.class);
+                startActivity(startWeatherActivity);
+            }
+        });
     }
 
     protected void onActivityResult(int requestCode, int responseCode, Intent data){
-        if (requestCode == 10) {
+        if (requestCode == MESSAGE_REQUEST_CODE) {
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult");
             if (responseCode == Activity.RESULT_OK){
                 String messagePassed = data.getStringExtra("Response");

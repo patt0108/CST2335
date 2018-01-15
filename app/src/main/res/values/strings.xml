@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab 3</string>
+    <string name="app_name">Lab 7</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="login">Login</string>
@@ -15,4 +15,7 @@
     <string name="activityResponse">Here is my response</string>
     <string name="startChat">Start Chat</string>
     <string name="send">Send</string>
+    <string name="weather">Weather Forecast</string>
+    <string name="deleteMessage">Delete this message</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
 </resources>

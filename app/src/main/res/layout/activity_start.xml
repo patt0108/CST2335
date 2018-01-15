@@ -28,4 +28,10 @@
         android:text="@string/startChat"
         app:layout_constraintLeft_toRightOf="@+id/button" />
 
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather"
+        app:layout_constraintLeft_toRightOf="@+id/startChat" />
 </android.support.constraint.ConstraintLayout>
