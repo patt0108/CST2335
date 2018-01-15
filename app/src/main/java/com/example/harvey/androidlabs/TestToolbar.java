@@ -71,7 +71,7 @@ public class TestToolbar extends AppCompatActivity {
             case R.id.action_three:
                 LayoutInflater inflater = TestToolbar.this.getLayoutInflater();
                 View customDialogView = inflater.inflate(R.layout.custom_dialog, null);
-                
+
                 builder.setView(customDialogView);
                 final EditText userInput = (EditText) customDialogView.findViewById(R.id.newSnackbarMessage);
 
