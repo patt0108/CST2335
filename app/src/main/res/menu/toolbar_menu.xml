@@ -4,19 +4,24 @@
 
     <item android:id="@+id/action_one"
         android:title="One"
-        android:icon="@drawable/icons8-facebook-50"
+        android:icon="@drawable/icons8_facebook_50"
         android:orderInCategory="101"
         app:showAsAction="always" />
 
     <item android:id="@+id/action_two"
         android:title="Two"
-        android:icon="@drawable/icons8-twitter-50"
+        android:icon="@drawable/icons8_twitter_50"
         android:orderInCategory="102"
         app:showAsAction="always" />
 
     <item android:id="@+id/action_three"
         android:title="Three"
-        android:icon="@drawable/icons8-camera-50"
+        android:icon="@drawable/icons8_camera_50"
         android:orderInCategory="103"
         app:showAsAction="always" />
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
 </menu>

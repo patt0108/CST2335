@@ -45,6 +45,15 @@ public class StartActivity extends Activity {
                 startActivity(startWeatherActivity);
             }
         });
+
+        Button testToolbar = (Button) findViewById(R.id.testToolbar);
+        testToolbar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent startTestToolbar = new Intent(getApplicationContext(), TestToolbar.class);
+                startActivity(startTestToolbar);
+            }
+        });
     }
 
     protected void onActivityResult(int requestCode, int responseCode, Intent data){
